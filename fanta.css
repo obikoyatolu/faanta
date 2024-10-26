@@ -22,6 +22,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 .logo {
   margin-left: 30px;
@@ -45,7 +50,13 @@ nav {
 .nav-links a:hover {
   color: #ddd;
 }
+nav {
+  transition: box-shadow 0.3s ease;
+}
 
+nav.scrolled {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.273);
+}
 .hamburger {
   display: none;
   cursor: pointer;
@@ -106,9 +117,11 @@ nav {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 30px;
   align-items: center;
   gap: 2rem;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
+  padding-top: 40px;
 }
 
 .left-content {
@@ -233,6 +246,7 @@ p {
   }
   .left-content {
     margin-top:0px;
+    padding-top: 10px;
   }
   .hero-image {
     max-width: 80%;
@@ -254,7 +268,6 @@ p {
   p {
     font-size: 1rem;
   }
-
   .hero {
     padding: 1rem;
   }
