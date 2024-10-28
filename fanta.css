@@ -114,6 +114,7 @@ nav.scrolled {
 /*=============== HERO SECTION ===============*/
 .hero {
   background-color: #ff5f17;
+  width: 100%;
  /* border-radius: 0 0 50px 50px;*/
 }
 .hero-content {
@@ -292,15 +293,50 @@ nav.scrolled {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* Responsive Design */
-@media (max-width: 900px) {
-  .section-two-grid {
-      grid-template-columns: repeat(2, 1fr);
-  }
+/*=============== ABOUT SECTION ===============*/
+
+
+.about-section {
+  padding: 60px 0 50px 0;
+  border-radius: 30px 30px 0 0 ;
+  
+  background-color: #ff5f17;
+  display: flex;
+  
+  align-items: center
+}
+.image-section {
+  flex: 1;
 }
 
-@media (max-width: 600px) {
-  .section-two-grid {
-      grid-template-columns: 1fr;
-  }
+.image-section img {
+width: 650px;
+height: 500px;
+  border-radius: 70px;
+  object-fit: cover;
+  padding: 50px;
+  
+}
+
+.content-section {
+  flex: 1;
+}
+
+.content-section h1 {
+  font-family: "Fredoka One", sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.content-section p {
+  padding: 20px 50px 50px 0;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: white;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
 }
