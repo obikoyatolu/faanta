@@ -107,18 +107,12 @@
   }
 }
 /*=============== SECTION TWO ===============*/
-@media (max-width: 480px) {
-  .sec-one h1{
-    font-size: 2rem;
-  }
-  .sec-one p{
-    width: 330px;
-  }
-}
 
 @media (max-width: 900px) {
+
   .sec-one p{
-    width: 350px;
+    width: 90%;
+    margin-left: 3%;
   }
   .section-two-grid {
     
@@ -126,6 +120,15 @@
   }
 
 }
+@media (max-width: 480px) {
+  .sec-one h1{
+    font-size: 1.8rem;
+  }
+  .sec-one p{
+  
+  }
+}
+
 @media (max-width: 600px) {
   .section-two-grid {
       grid-template-columns: 1fr;
@@ -173,3 +176,10 @@
 }
 
   }
+  @media (max-width: 405px) {
+    .image-section img{
+      width: 90%;
+      padding:0px;
+    }
+
+    }
