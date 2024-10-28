@@ -131,7 +131,7 @@ nav.scrolled {
 .left-content {
   margin-top: 70px;
   flex: 1;
-  padding: 2rem;
+  padding: rem;
   animation: slideFromLeft 1s ease-out;
 }
 
