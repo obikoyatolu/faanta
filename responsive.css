@@ -4,7 +4,7 @@
     font-size: 1rem;
   }
   .nav-links {
-    
+    margin-right: 20px;
     gap: 2.5rem;
   }
 }
@@ -96,5 +96,13 @@
     height: 400px;
     bottom: -130px;
     left: -90px;
+  }
+}
+@media (max-width: 480px) {
+  .sec-one h1{
+    font-size: 2rem;
+  }
+  .sec-one p{
+    width: 330px;
   }
 }
