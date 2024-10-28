@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+
+    <!-- AOS JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
     <link rel="stylesheet" href="fanta.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,6 +41,7 @@
         <li><a href="#">Products</a></li>
         <li><a href="#">Shop Now</a></li>
         <li><a href="#">About</a></li>
+        <li><a href="#">Testimonials</a></li>
       </ul>
     </nav>
     <section class="hero">
@@ -53,6 +64,71 @@
         </div>
       </div>
     </section>
+    <section>
+      <div class="first-section-two">
+        <div
+          class="sec-one"
+          data-aos="fade-down"
+          data-aos-duration="800"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-out"
+        >
+          <h1>Find Your Flavor!</h1>
+          <p>
+            From classic Orange to unique, exotic blends, there’s a Fanta for
+            every taste! Explore our vibrant flavors and discover the one that
+            matches your vibe.
+          </p>
+        </div>
+      </div>
+      <div
+        class="section-two-grid"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+        data-aos-duration="800"
+        data-aos-delay="300"
+        data-aos-easing="ease-in-out"
+      >
+        <!-- Grid Item 1 -->
+        <div class="grid-item">
+          <img src="/img/fanta4.png" alt="grape" />
+          <div class="content">
+            <h1 class="fanta">Fanta Orange</h1>
+            <p>
+              Bright, bubbly, and bursting with citrus—Fanta Orange brings the
+              classic!
+            </p>
+          </div>
+        </div>
+
+        <!-- Grid Item 2 -->
+        <div class="grid-item">
+          <img src="/img/grape one.png" alt="Image 2" />
+          <div class="content">
+            <h1 class="grape">Fanta Grape</h1>
+            <p>
+              Bold, fruity, and refreshingly sweet—Fanta Grape brings a burst of
+              grape flavor in every sip
+            </p>
+          </div>
+        </div>
+
+        <!-- Grid Item 3 -->
+        <div class="grid-item">
+          <img src="/img/fanta 3.png" alt="Image 3" />
+          <div class="content">
+            <h1 class="strawberry">Fanta Strawberry</h1>
+            <p>
+              Sweet, fruity, and refreshingly bold—Fanta Strawberry delivers a
+              burst of juicy strawberry flavor in every sip!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
   <script src="fanta.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
