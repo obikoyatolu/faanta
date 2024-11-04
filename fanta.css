@@ -297,7 +297,7 @@ nav.scrolled {
 
 
 .about-section {
-  padding: 60px 0 50px 0;
+  padding: 60px 0 100px 0;
   border-radius: 30px 30px 0 0 ;
   
   background-color: #ff5f17;
@@ -339,4 +339,130 @@ height: 500px;
   color: white;
   margin-bottom: 20px;
   font-family: "Montserrat", sans-serif;
+}
+
+
+/*=============== ABOUT SECTION ===============*/
+
+.order-section {
+  margin-top:-50px;
+  border-radius: 50px 50px 0 0;
+  background-color: #fe5203;
+  padding: 60px 0 50px 0;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.form-section {
+  flex: 1;
+  padding: 100px;
+}
+
+.form-section h1 {
+  font-family: "Fredoka One", sans-serif;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-form input {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.order-form button {
+  box-shadow:3px 3px 3px #ff0000, -3px -3px 3px #f49303;
+  width: 90%;
+  padding: 12px;
+  background-color: #fe5203;
+  border: ;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.order-form button:hover {
+  background-color: #555;
+}
+
+.form-image-section {
+  flex: 1;
+}
+
+.form-image-section img {
+  margin-top: 50px;
+  margin-left: -100px;
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+  padding: 50px;
+
+} 
+
+ /* Responsive Design  */
+ @media (max-width: 1140px) {
+  .order-form input {
+    width: 90%;
+  }
+  .form-image-section img {
+    padding: 0;
+    margin-left: -70px;
+  }
+  .form-section h1 {
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
+  .form-section {
+    padding: 50px;
+  }
+  
+ }
+@media (max-width: 768px) {
+  .form-section {
+    padding: 0px;
+  }
+  .form-image-section img {
+    width: 80%;
+  margin: -100px 0 0 0;
+
+    padding:0 50px 0px 50px;
+  }
+  .order-section {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .order-form input,
+  .order-form button {
+      max-width: 400px;
+      margin: 0 auto;
+  }
+
+  .image-section img {
+      height: 300px;
+  }
+}
+@media (max-width: 480px){
+  .order-section {
+    padding: 50px 0 0px 0;
+  }
+  .form-section h1 {
+    margin-bottom: 10px;
+}
+.form-image-section img {
+  width: 100%;
+  margin-top: -140px;
+}
 }
