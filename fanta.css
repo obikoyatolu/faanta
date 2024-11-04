@@ -342,9 +342,10 @@ height: 500px;
 }
 
 
-/*=============== ABOUT SECTION ===============*/
+/*===============BUY SECTION ===============*/
 
 .order-section {
+  overflow: hidden;
   margin-top:-50px;
   border-radius: 50px 50px 0 0;
   background-color: #fe5203;
@@ -456,7 +457,7 @@ height: 500px;
 }
 @media (max-width: 480px){
   .order-section {
-    padding: 50px 0 0px 0;
+    padding: 50px 0 0 0;
   }
   .form-section h1 {
     margin-bottom: 10px;
