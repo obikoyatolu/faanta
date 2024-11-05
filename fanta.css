@@ -561,7 +561,6 @@ footer a{
    font-size:small;
   }
   footer{
-    display: grid;
     font-size: 1rem;
    }
    footer a{
