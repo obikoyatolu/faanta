@@ -472,7 +472,7 @@ height: 500px;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  background-color: #ff8533;
+  background-color: #f9b700;
   color: white;
   border: none;
   padding:1.5rem 1rem;
@@ -482,7 +482,7 @@ height: 500px;
   transition: background-color 0.2s;
 }
 .newsletter-right button:hover {
-  background-color: #ff6600;
+  background-color: #ffea00c3;
 }
 .policy{
   color: white;
